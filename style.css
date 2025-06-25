@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-size:16px;
+}
+
+img
+iframe {
+max-width: 100%;
+	height:auto;
+/* so that aspect ratio is kept even if height is declared in markup */
+border: 0;
+/* this stops a border if the image is inside a link */
+}
+
+/*this is the default font*/
+body {
+font-family: "Comic Neue", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-optical-sizing: auto;
+	text-transform: none;
+
+}
+
+/* background color defaults */
+body {
+	background-color: grey;
+}
+header {
+	background-color: peachpuff}
+header,footer {
+	text-align: center;
+}
+
+/* TYPOGRAPHY*/
+h1 {
+	font-size: 50px;
+	color: black;
+	text-transform: none;
+}
+h2 {
+	font-size: 30px;
+  font-family: "Ancizar Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+	text-transform: capitalize ;
+}
+h1,h2,p,li {
+	padding-bottom: 1em;
+}
+
+.item {
+	background-color: peru;
+	padding:1%;
+	margin:1%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+main {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.item li {
+	margin-left: 25px;
+}
+blockquote {
+	text-transform:capitalize;
+	font-style: italic;
+}
+
+nav {
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	background: white;
+	color: black;
+	padding: 5px;
+	text-decoration: none; 
+	border-radius: 5px;
+}
+nav a:hover {
+	background: peach;
+}
+body {
+	background-color: black;
+	background-image: url(Bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
